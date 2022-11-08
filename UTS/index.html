@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resik-Resik</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+
+</head>
+<body>
+    <button id="btnScrollTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <section class="container">
+        <nav class="box">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <b>
+                <ul class="navigation">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#layanan">Our Service</a></li>
+                    <li><a href="#promo">Promo</a></li>
+                    <li><a href="#kontak">Contact</a></li>
+                </ul>
+            </b>
+        </nav>
+    </section>
+
+        <section class="home" id="home">
+            <h2><center><strong>SELAMAT DATANG DI LAMAN RESIK-RESIK, YEOROBUN!!!</strong></center></h2><br>
+            <center><p>Halo Peeps!!!<br>
+                Disini kami akan memberikan bantuan kepada Anda untuk me"RESIK-RESIK"an rumah Anda<br>
+                Nah, untuk mengetahui lebih lanjut, Peeps bisa menemukannya pada navbar dengan menekan opsi "OUR SERVICE"<br>
+                Eitsssss, ada lagi nih. Kami akan menghadirkan beberapa promo pada hari-hari besar tertentu. Peeps bisa memilih opsi 
+            </p></center>
+        </section>
+
+    <section class="card-container" id="layanan">
+    <div class="card">
+        <div class="card-image one"></div>
+        <div class="card-text">
+            <span class="isi"></span>
+            <h2>COBA COBA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deserunt mollitia cum est odio. Delectus molestias officiis molestiae voluptatum, animi quasi tempora labore quibusdam dolorum dolorem totam nostrum dolor. Architecto?</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image three"></div>
+        <div class="card-text">
+            <span class="isi"></span>
+            <h2>COBA COBA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deserunt mollitia cum est odio. Delectus molestias officiis molestiae voluptatum, animi quasi tempora labore quibusdam dolorum dolorem totam nostrum dolor. Architecto?</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image five"></div>
+        <div class="card-text">
+            <span class="isi"></span>
+            <h2>COBA COBA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deserunt mollitia cum est odio. Delectus molestias officiis molestiae voluptatum, animi quasi tempora labore quibusdam dolorum dolorem totam nostrum dolor. Architecto?</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image six"></div>
+        <div class="card-text">
+            <span class="isi"></span>
+            <h2>COBA COBA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deserunt mollitia cum est odio. Delectus molestias officiis molestiae voluptatum, animi quasi tempora labore quibusdam dolorum dolorem totam nostrum dolor. Architecto?</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="promo-container" id="promo">
+        <div class="promosi">
+            <div class="box-promo">
+                <div class="isi-promo">
+                    <img src="img/raya.jpg" alt="">
+                    <h1>HARI RAYA</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum deserunt in natus
+                     enim ducimus ratione maxime facilis, assumenda vero excepturi esse error deleniti eveniet 
+                     amet placeat neque repudiandae eius accusamus.</p>
+                </div>
+                <div class="isi-promo">
+                    <img src="img/merdeka.jpg" alt="">
+                    <h1>HARI KEMERDEKAAN</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum deserunt in natus
+                     enim ducimus ratione maxime facilis, assumenda vero excepturi esse error deleniti eveniet 
+                     amet placeat neque repudiandae eius accusamus.</p>
+                </div>
+                <div class="isi-promo">
+                    <img src="img/baru.jpg" alt="">
+                    <h1>TAHUN BARU</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum deserunt in natus
+                     enim ducimus ratione maxime facilis, assumenda vero excepturi esse error deleniti eveniet 
+                     amet placeat neque repudiandae eius accusamus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="kontak">
+        <div class="footer-left">
+            <h3>Hubungi Kami : </h3><br>
+            <div>
+                <ul class="hub">
+                    <li>
+                        <img src="img/halo.png" alt="" width="50px"><a class="font">0812-3456-7890</a><br><br>
+                        <img src="img/email.png" alt="" width="50px"><a class="font">ayo2resik@gmail.com</a><br><br>
+                        <img src="img/ig.png" alt="" width="50px"><a class="font">@ayoresik2</a><br><br>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <center><p>&copy; 2022 Aulia Cahya Resik-Resik</p></center>
+    </footer>
+
+    <script>
+        const btnScrollTop = document.querySelector("#btnScrollTop");
+
+        btnScrollTop.addEventListener("click", function() {
+            window.scrollTo(0, 0);
+        })
+    </script>
+</body>
+</html>
